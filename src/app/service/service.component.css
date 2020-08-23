@@ -1,0 +1,47 @@
+  section{
+    margin-top: 10%;
+    padding: 10px 10px 15px 10px;
+    border: 1px solid grey;
+    margin-bottom: 10%;
+  }
+  section h1{
+    text-align: center;
+    font-weight: 600;
+    border-bottom: 2px darkgoldenrod solid;
+  }
+  section h4{
+    text-align: center;
+  }
+  
+  .card {
+    border-radius: 4px;
+    margin-top: 10px;
+    background-color: white;
+    height: auto;
+    align-items: center;
+    color: black;
+    padding-top: 12px;
+    transition: all 0.2s ease-in-out;
+  }
+ 
+  .card mat-icon{
+    font-size: 32px;
+  }
+  .card h3{
+    margin-top: 12px;
+    color: black;
+    font-weight: 500;
+  }
+  .card:hover {
+    box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+  }
+
+
+  @media screen and (max-width:576px)
+  {
+      .card{
+        margin-top: 0px;
+        margin-bottom: 10px;
+        box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+      }
+  }

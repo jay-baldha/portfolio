@@ -1,0 +1,21 @@
+footer{
+    margin-top: 60px;
+}
+h1{
+    text-align: center;
+    font-weight: 500;
+}
+.main-content{
+    background-color: black;
+    color: white;
+    padding-bottom: 22px;
+    padding-top: 15px;
+    padding-left: 10px;
+    text-align: center;
+}
+.class{
+    color: grey;
+}
+.content{
+    color: grey;
+}

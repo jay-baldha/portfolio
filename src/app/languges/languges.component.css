@@ -1,0 +1,92 @@
+section{
+    border: 1px solid grey;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+section h1{
+    text-align: center;
+    font-weight: 500;
+    border-bottom: 2px solid orange;
+}
+section h4{
+    text-align: center;
+}
+
+li{
+  margin: 20px 0;
+}
+li h3{
+  color: wheat;
+}
+li .pr-ht{
+  margin-right: 10%; 
+  float: right;
+}
+li .pr-css{
+  margin-right: 18%; 
+  float: right;
+}
+li .pr-js{
+  margin-right: 38%; 
+  float: right;
+}
+li .pr-ng{
+  margin-right: 22%; 
+  float: right;
+}
+li .pr-asp{
+  margin-right: 30%; 
+  float: right;
+}
+li .pr-co{
+  margin-right: 14%; 
+  float: right;
+}
+li .pr-api{
+  margin-right: 35%; 
+  float: right;
+}
+li .pr-sql{
+  margin-right: 50%; 
+  float: right;
+}
+
+.bar{
+  background-color: #353b48;
+  display: block;
+  height: 5px;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #2187e7b3;
+}
+.bar span{
+  height: 3px;
+  float: left;
+  background-color: #2187e7;
+}
+.html{
+  width: 90%;
+}
+.css{
+  width: 82%;
+}
+.js{
+  width: 62%;
+}
+.angular{
+  width: 78%;
+}
+.asp{
+  width: 70%;
+}
+.co{
+  width: 86%;
+}
+.api{
+  width: 65%;
+}
+.sql{
+  width: 50%;
+}
